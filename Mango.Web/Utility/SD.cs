@@ -3,7 +3,8 @@
     public class SD
     {
         public static string CouponAPIBase {  get; set; }
-        public enum ApiType
+        public static string AuthAPIBase { get; set; }
+		public enum ApiType
         {
             GET,
             POST,

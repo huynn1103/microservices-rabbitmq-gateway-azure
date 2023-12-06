@@ -1,4 +1,4 @@
-﻿namespace Mango.Web.CouponAPI.Models.Dto
+﻿namespace Mango.Web.Models
 {
     public class ResponseDto
     {
