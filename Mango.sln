@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{4763772F-6653-4D28-9DA4-C1CBF1444B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{244084AD-CE32-4B0A-BCA0-0FCDA555E496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{244084AD-CE32-4B0A-BCA0-0FCDA555E496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{1FE7E8AA-3BFD-4F49-A050-1238CD1D61A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{244084AD-CE32-4B0A-BCA0-0FCDA555E496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{244084AD-CE32-4B0A-BCA0-0FCDA555E496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{244084AD-CE32-4B0A-BCA0-0FCDA555E496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE7E8AA-3BFD-4F49-A050-1238CD1D61A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE7E8AA-3BFD-4F49-A050-1238CD1D61A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE7E8AA-3BFD-4F49-A050-1238CD1D61A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE7E8AA-3BFD-4F49-A050-1238CD1D61A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{371410B0-8DB3-4C6B-9463-0BDAB52F1B07} = {89C5DF7D-D5BD-451D-BC88-07298AE0A258}
 		{4763772F-6653-4D28-9DA4-C1CBF1444B88} = {30C1BE22-EF06-4852-AF1C-86300CEE6802}
 		{244084AD-CE32-4B0A-BCA0-0FCDA555E496} = {89C5DF7D-D5BD-451D-BC88-07298AE0A258}
+		{1FE7E8AA-3BFD-4F49-A050-1238CD1D61A1} = {89C5DF7D-D5BD-451D-BC88-07298AE0A258}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48232CAD-A23F-4A3D-842B-E30C0BE0F70F}
